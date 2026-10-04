@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f291e"/>
+      <stop offset="100%" stop-color="#06130d"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffdfa"/>
+      <stop offset="100%" stop-color="#f0ebe0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <rect x="24" y="24" width="464" height="464" rx="90" fill="none" stroke="#234c37" stroke-width="6"/>
+  <!-- Okey Tile Graphic -->
+  <g filter="url(#shadow)">
+    <rect x="136" y="106" width="240" height="300" rx="32" fill="url(#tile)" stroke="#d5ccba" stroke-width="4"/>
+    <circle cx="256" cy="180" r="14" fill="#dc2626"/>
+    <text x="256" y="320" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="900" fill="#dc2626" text-anchor="middle" dominant-baseline="central">7</text>
+    <path d="M216 350 L296 350" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- Sparkle star -->
+  <polygon points="380,80 390,110 420,120 390,130 380,160 370,130 340,120 370,110" fill="#f59e0b"/>
+</svg>

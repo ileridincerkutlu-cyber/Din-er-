@@ -1,0 +1,7 @@
+{
+  "name": "Okey Asistanı",
+  "description": "Gerçek Okey oyunlarında el analizi, taş sayımı, rakip takibi, olasılık hesaplama ve kamera ile taş algılama sağlayan akıllı mobil asistan.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

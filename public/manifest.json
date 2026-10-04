@@ -1,0 +1,19 @@
+{
+  "name": "Okey Asistanı",
+  "short_name": "Okey Asistan",
+  "description": "Gerçek Okey oyunlarında el analizi, taş sayımı, rakip takibi, olasılık hesaplama ve kamera ile taş algılama.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1c15",
+  "theme_color": "#0f291e",
+  "orientation": "portrait",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
